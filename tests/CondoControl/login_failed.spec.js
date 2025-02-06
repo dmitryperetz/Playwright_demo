@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('Failed Login and validate error', async ({ page }) => {
     // Open Home URL
   await page.goto('https://www.condocontrol.com/');
 
